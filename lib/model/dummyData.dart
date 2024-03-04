@@ -1,0 +1,43 @@
+import 'Services.dart';
+List<Services> DummyServices = [
+  Services(
+    id: 1,
+    name: 'Electrical Works',
+    Logoimg: "img/snorkling.png",
+    img: "img/mmcassits/1.jpg",
+    title: "title",
+    subtitle: "subtitle",
+    description: ["description", "description", "description", "description"],
+    HowItsWork: ["HowItsWork", "HowItsWork", "HowItsWork", "HowItsWork"],
+  ),
+  Services(
+    id: 2,
+    name: 'Carpentar Works',
+    Logoimg: "img/kayaking.png",
+    img: "img/mmcassits/1.jpg",
+    title: "title",
+    subtitle: "subtitle",
+    description: ["description", "description", "description", "description"],
+    HowItsWork: ["HowItsWork", "HowItsWork", "HowItsWork", "HowItsWork"],
+  ),
+  Services(
+    id: 3,
+    name: 'Maintainance works',
+    Logoimg: "img/hiking.png",
+    img: "img/mmcassits/1.jpg",
+    title: "title",
+    subtitle: "subtitle",
+    description: ["description,description,description,description"],
+    HowItsWork: ["HowItsWork", "HowItsWork", "HowItsWork", "HowItsWork"],
+  ),
+  Services(
+    id: 4,
+    name: 'decoration Works',
+    Logoimg: "img/balloning.png",
+    img: "img/mmcassits/1.jpg",
+    title: "title",
+    subtitle: "subtitle",
+    description: ["description,description,description,description"],
+    HowItsWork: ["HowItsWork", "HowItsWork", "HowItsWork", "HowItsWork"],
+  ),
+];
