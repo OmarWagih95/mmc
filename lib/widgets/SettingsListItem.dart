@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 class SettingsListItem extends StatelessWidget {
 final IconData iconData;
 final String title;
+ String title0='';
 SettingsListItem(this.iconData,this.title);
 
   @override
