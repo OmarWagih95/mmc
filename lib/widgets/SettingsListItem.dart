@@ -3,6 +3,7 @@ class SettingsListItem extends StatelessWidget {
 final IconData iconData;
 final String title;
  String title10='';
+ String title100='';
 SettingsListItem(this.iconData,this.title);
 
   @override
