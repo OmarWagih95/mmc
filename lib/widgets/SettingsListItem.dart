@@ -8,14 +8,18 @@ SettingsListItem(this.iconData,this.title);
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Padding(
-          padding: const EdgeInsets.symmetric(vertical: 5),
-          child: Row(
-            textDirection: TextDirection.rtl,
-            children: [Icon(iconData,color: Colors.black45,),SizedBox(width: 10,),Text(title,
-              style: TextStyle(fontSize: 20,color:Colors.black87),)],),
+        Container(
+          decoration: BoxDecoration(border: Border(
+            bottom: BorderSide(color: Colors.black54)
+          )),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical:15),
+            child: Row(
+              textDirection: TextDirection.rtl,
+              children: [Icon(iconData,color: Colors.black45,),SizedBox(width: 10,),Text(title,
+                style: TextStyle(fontSize: 20,color:Colors.black87),)],),
+          ),
         ),
-        Text('________________________________________________________',style: TextStyle(color: Colors.black26),)
       ],
     );
 
