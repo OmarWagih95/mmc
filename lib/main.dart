@@ -7,8 +7,15 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import '/cubits/app_cupit.dart';
 import '/views/cubitRouting.dart';
 import 'package:intl/intl.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:androidstudiommc/firebase_options.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp( MyApp());
 }
 

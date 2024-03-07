@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
+import 'package:androidstudiommc/views/navpages/SettingsPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '/misc/colors.dart';
@@ -18,7 +19,7 @@ class mainpage extends StatefulWidget {
 class _mainpageState extends State<mainpage> {
   ////////
   int Currindx = 0;
-  List pages = [HomePage(), BarItempage(), HomePage(), Mypage()];
+  List pages = [HomePage(), BarItempage(), SettingsPage(), Mypage()];
   void Function(int)? ontap(indx) {
     setState(() {
       Currindx = indx;
@@ -40,7 +41,7 @@ class _mainpageState extends State<mainpage> {
               BottomNavigationBarItem(icon: Icon(Icons.person), label: 'طلبي'),
               BottomNavigationBarItem(
                   icon: GestureDetector(
-                      onTap: () => null, child: Icon(Icons.settings)),
+                       child: Icon(Icons.settings)),
                   label: 'الأعدادات'),
               BottomNavigationBarItem(
                   icon: Icon(Icons.auto_fix_normal), label: 'باقات الصيانة'),
