@@ -3,10 +3,11 @@ import '/cubits/cupit_states.dart';
 
 class app_cupit extends Cubit<cupit_states> {
   static String lan = 'en';
+  static String lfffan = 'en';
 ///////////////////////////
-///ghghg
-///hghg
-///h
+  ///ghghg
+  ///hghg
+  ///h
   app_cupit() : super(initialState()) {
     emit(onboardingPageState());
   }
