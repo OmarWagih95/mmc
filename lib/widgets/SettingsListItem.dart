@@ -19,7 +19,7 @@ SettingsListItem(this.iconData,this.title);
             child: Row(
               textDirection: TextDirection.rtl,
               children: [Icon(iconData,color: Colors.black45,),SizedBox(width: 10,),Text(title,
-                style: TextStyle(fontSize: 50,color:Colors.black87),)],),
+                style: TextStyle(fontSize: 20,color:Colors.black87),)],),
             //testtesttest
           ),
         ),

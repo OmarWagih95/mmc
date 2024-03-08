@@ -16,11 +16,11 @@ class SettingsPage extends StatelessWidget {
         ),
         body: SingleChildScrollView(child: Column(
           children: [
-              SettingsListItem(Icons.person, 'تسجيل مزود الخدمة'),
-            SettingsListItem(Icons.person, 'تسجيل مزود الخدمة'),
-            SettingsListItem(Icons.person, 'تسجيل مزود الخدمة'),
-            SettingsListItem(Icons.person, 'تسجيل مزود الخدمة'),
-            SettingsListItem(Icons.person, 'تسجيل مزود الخدمة'),
+              SettingsListItem(Icons.autorenew, 'تغيير اللغة'),
+            SettingsListItem(Icons.email, 'راسلنا'),
+            SettingsListItem(Icons.share, 'مشاركة التطبيق'),
+            SettingsListItem(Icons.info, 'من نحن'),
+            SettingsListItem(Icons.person, 'تسجيل مستخدم'),
           ],
         )),
       ),
